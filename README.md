@@ -49,7 +49,9 @@ BUG INJECTION
     The results are buggy programs which are then stored at the current directory.
     All buggy in the EVALUATED directory are generated using the same running script.
 
--   To introduce bugs to a correct program, we use the following command "~/artifacts/nem/hip --infestor inputProgram". For example, to create buggy versions of "sll-length", we use "~/artifacts/nem/hip --infestor ~/artifacts/benchmark/sll-length.ss"
+-   To introduce bugs to a correct program, we use the following command "~/artifacts/nem/hip --infestor inputProgram". 
+
+-   For example, to create buggy versions of "sll-length", we use "~/artifacts/nem/hip --infestor ~/artifacts/benchmark/sll-length.ss"
 
 -   Interpreting the results.
     + Number of buggy versions that contain one bug.
@@ -57,7 +59,8 @@ BUG INJECTION
     + The total number of buggy versions.
 
 -   The name of buggy programs in the form inputProgram\_buggy\_numOfBugs\_bugID.ss.
-    For example, sll-length\_buggy\_1\_2.ss is a buggy version of sll that contains 1 bug
+    
+-   For example, sll-length\_buggy\_1\_2.ss is a buggy version of sll that contains 1 bug
     and is the second buggy version in the list. Meanwhile, sll-length\_buggy\_2\_9.ss
     contains 2 bugs and is 9th buggy version in the list.
 
