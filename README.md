@@ -83,9 +83,10 @@ REPRODUCE THE EXPERIMENT RESULTS
      "\~/artifacts/scripts/mutated-run-benchmark.py ~/artifacts/evaluated/sll-length"
 
 -   To run our tool NEM for one buggy program:
-    "~/artifacts/nem/hip --en-repair inputProgram".
-    For example:
-    "~/artifacts/nem/hip --en-repair ~/artifacts/evaluated/sll-length\_buggy\_1\_6.ss"
+    "\~/artifacts/nem/hip --en-repair inputProgram".
+    
+-   For example:
+    "\~/artifacts/nem/hip --en-repair ~/artifacts/evaluated/sll-length\_buggy\_1\_6.ss"
 
 -   To run the mutation-based tool for one buggy program:
     "~/artifacts/mutation-based/hip -tp z3 --en-repair --bug-not-file inputProgram".
