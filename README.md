@@ -59,9 +59,9 @@ BUG INJECTION
     + Number of buggy versions that contain two bugs.
     + The total number of buggy versions.
 
--   The name of buggy programs in the form inputProgram_buggy_numOfBugs_bugID.ss.
-    For example, sll-length_buggy_1_2.ss is a buggy vesion of sll that contains 1 bug
-    and is the second buggy version in the list. Meanwhile, sll-length_buggy_2_9.ss
+-   The name of buggy programs in the form inputProgram\_buggy\_numOfBugs\_bugID.ss.
+    For example, sll-length\_buggy\_1\_2.ss is a buggy version of sll that contains 1 bug
+    and is the second buggy version in the list. Meanwhile, sll-length\_buggy\_2\_9.ss
     contains 2 bugs and is 9th buggy version in the list.
 
 REPRODUCE THE EXPERIMENT RESULTS
@@ -84,13 +84,13 @@ REPRODUCE THE EXPERIMENT RESULTS
 -   To run our tool NEM for one buggy program:
     "~/artifacts/nem/hip --en-repair inputProgram".
     For example:
-    "~/artifacts/nem/hip --en-repair ~/artifacts/evaluated/sll-length_buggy_1_6.ss"
+    "~/artifacts/nem/hip --en-repair ~/artifacts/evaluated/sll-length\_buggy\_1\_6.ss"
 
 -   To run the mutation-based tool for one buggy program:
     "~/artifacts/mutation-based/hip -tp z3 --en-repair --bug-not-file inputProgram".
 
 -   For example,
-    "~/artifacts/mutation-based/hip -tp z3 --en-repair --bug-not-file ~/artifacts/evaluated/sll-length_buggy_1_6".
+    "~/artifacts/mutation-based/hip -tp z3 --en-repair --bug-not-file ~/artifacts/evaluated/sll-length\_buggy\_1\_6".
 
 -   The timeout for each tool to repair a program is 300 seconds.
 
