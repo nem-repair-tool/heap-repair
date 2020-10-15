@@ -1,11 +1,13 @@
 NEM: Automated Program Repair of Heap-Manipulating Programs using Deductive Synthesis
 
+A virtual machine and details of our experiment are in this shared link: http://tiny.cc/30nzsz
+
 VIRTUAL MACHINE
 -   We use VMCAI 2021 Virtual Machine. Remind that the VM has a sudo user "vmcai2021"
     with the password "vmcai2021".
 -   The main directory of the artifacts is: "~/artifacts"
 
-STRUCTURE OF ARTIFACTS DIRECTORY
+STRUCTURE OF THE MAIN DIRECTORY
 In side the folder "~/artifacts":
 -   nem: the directory containing our tool NEM
 
