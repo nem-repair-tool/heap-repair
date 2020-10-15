@@ -76,10 +76,11 @@ REPRODUCE THE EXPERIMENT RESULTS
     For example, to run our tool NEM for all buggy versions of sll-length:
     "~/artifacts/scripts/run-benchmark.py ~/artifacts/evaluated/sll-length"
 
--   Likewise, "~/artifacts/scripts/mutated-run-benchmark.py inputDirectory":
+-   Likewise, "\~/artifacts/scripts/mutated-run-benchmark.py inputDirectory":
     this python script is to run the compared tool for one directory.
-     For example, to run the mutated-based tool for all buggy versions of sll-length:
-     "~/artifacts/scripts/mutated-run-benchmark.py ~/artifacts/evaluated/sll-length"
+     
+-   For example, to run the mutated-based tool for all buggy versions of sll-length:
+     "\~/artifacts/scripts/mutated-run-benchmark.py ~/artifacts/evaluated/sll-length"
 
 -   To run our tool NEM for one buggy program:
     "~/artifacts/nem/hip --en-repair inputProgram".
