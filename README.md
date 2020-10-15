@@ -49,8 +49,7 @@ BUG INJECTION
     The results are buggy programs which are then stored at the current directory.
     All buggy in the EVALUATED directory are generated using the same running script.
 
--   To introduce bugs to a correct program, we use the following command
-    "~/artifacts/nem/hip --infestor inputProgram".
+-   To introduce bugs to a correct program, we use the following command "~/artifacts/nem/hip --infestor inputProgram".
     For example, to create buggy versions of "sll-length", we use
     "~/artifacts/nem/hip --infestor ~/artifacts/benchmark/sll-length.ss"
 
