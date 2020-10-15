@@ -71,7 +71,7 @@ REPRODUCE THE EXPERIMENT RESULTS
 -   "sh ~/artifacts/scripts/run-all-mutated.sh": run this file to reproduce all results of
     the compared tool, denoted as "Mutated-Based Tool" in our experiment table.
 
--   "~/artifacts/scripts/run-benchmark.py inputDirectory": this python script is to run
+-   "\~/artifacts/scripts/run-benchmark.py inputDirectory": this python script is to run
     our tool for one directory.
     For example, to run our tool NEM for all buggy versions of sll-length:
     "~/artifacts/scripts/run-benchmark.py ~/artifacts/evaluated/sll-length"
